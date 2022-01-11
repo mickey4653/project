@@ -1,0 +1,13 @@
+Sigmoid
+
+Zero one loss error:0.0024577867151840405
+accuracy 0.997542213284816
+
+
+rbf
+Zero one loss error:0.0009256599316926906
+accuracy 0.9990743400683073
+
+poly
+Zero one loss error:0.0014044495515337374
+accuracy 0.9985955504484663

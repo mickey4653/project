@@ -1,0 +1,388 @@
+<section class="u-align-right u-clearfix u-section-1" id="carousel_27bf">
+  <form #Profile="ngForm" (ngSubmit)="submit(Profile)" action="/add_Profile" method="POST" source="custom" name="form-3" style="padding: 0px; ">
+  <div class="u-align-left u-clearfix u-sheet u-sheet-1">
+    <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
+      <div class="u-layout">
+        <div class="u-layout-row">
+          <div class="u-container-style u-layout-cell u-size-60 u-layout-cell-1">
+            <div class="u-container-layout u-container-layout-1">
+              <div class="u-clearfix u-gutter-0 u-layout-wrap u-layout-wrap-2">
+                <div class="u-layout">
+                  <div class="u-layout-row">
+                    <div class="u-container-style u-layout-cell u-size-60 u-layout-cell-2">
+                      <div class="u-container-layout u-container-layout-2">
+                        <div class="u-expanded-width u-tabs u-tabs-1">
+                          <ul class="u-tab-list u-unstyled" role="tablist">
+                            <li class="u-tab-item" role="presentation">
+                              <a class="active u-button-style u-tab-link" id="link-tab-3a7c" href="#tab-3a7c" role="tab" aria-controls="tab-3a7c" aria-selected="true">Profile</a>
+                            </li>
+                            <li class="u-tab-item" role="presentation">
+                              <a class="u-button-style u-tab-link" id="link-tab-06a8" href="#tab-06a8" role="tab" aria-controls="tab-06a8" aria-selected="false">WishListed Courses</a>
+                            </li>
+                            <li class="u-tab-item" role="presentation">
+                              <a class="u-button-style u-tab-link" id="link-tab-1c83" href="#tab-1c83" role="tab" aria-controls="tab-1c83" aria-selected="false">Certifications</a>
+                            </li>
+                            <li class="u-tab-item" role="presentation">
+                              <a class="u-button-style u-tab-link" id="link-tab-8faf" href="#tab-8faf" role="tab" aria-controls="tab-8faf" aria-selected="false">Create Course</a>
+                            </li>
+                            <li class="u-tab-item" role="presentation">
+                              <a class="u-button-style u-tab-link" id="link-tab-7486" href="#tab-7486" role="tab" aria-controls="tab-7486" aria-selected="false">Security &amp; Privacy</a>
+                            </li>
+                          </ul>
+                          <div class="u-tab-content">
+                            <div class="u-container-style u-tab-active u-tab-pane u-tab-pane-1" id="tab-3a7c" role="tabpanel" aria-labelledby="link-tab-3a7c">
+                              <div class="u-container-layout u-container-layout-3"><span class="u-icon u-icon-circle u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 58 58" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-8136"></use></svg><svg class="u-svg-content" viewBox="0 0 58 58" x="0px" y="0px" id="svg-8136" style="enable-background:new 0 0 58 58;"><path style="fill:currentColor;" d="M51,49.957c0-3.038-1.717-5.816-4.434-7.174l-9.552-4.776C35.78,37.39,35,36.128,35,34.748V31
+c0.268-0.305,0.576-0.698,0.904-1.162c1.302-1.838,2.286-3.861,2.969-5.984C40.098,23.477,41,22.345,41,21v-4
+c0-0.88-0.391-1.667-1-2.217V9c0,0,1.187-9-11-9C16.812,0,18,9,18,9v5.783c-0.609,0.55-1,1.337-1,2.217v4
+c0,1.054,0.554,1.981,1.383,2.517C19.382,27.869,22,31,22,31v3.655c0,1.333-0.728,2.56-1.899,3.198L11.18,42.72
+C8.603,44.125,7,46.826,7,49.761V52c0,0,0,0.657,0,1c0,2.761,9.85,5,22,5s22-2.239,22-5c0-0.343,0-1,0-1V49.957z"></path></svg></span>
+                              <div id="userform">
+                                <h1 class="u-text u-text-default u-text-1">User Details</h1>
+                                <h3 class="u-text u-text-default u-text-2">:</h3>
+                                <div class="u-border-3 u-border-black u-shape u-shape-rectangle u-white u-shape-1" align="center">
+                                  <input #UserName="ngModel" UserName name="UserName" type="text" id="User Name" required ngModel>
+                                <h5 class="u-text u-text-default u-text-3">                                </h5>
+                                </div>
+                                <!-- <h5 class="u-text u-text-default u-text-3">### User Full Name ###</h5> -->
+                                <div class="u-border-3 u-border-black u-container-style u-group u-shape-rectangle u-white u-group-1">
+                                  <div class="u-container-layout u-container-layout-4">
+                                    <h5 class="u-text u-text-default u-text-4">User Name</h5>
+                                  </div>
+                                </div>
+                                <div class="u-border-3 u-border-black u-shape u-shape-rectangle u-white u-shape-2"></div>
+                                <h5 class="u-text u-text-default u-text-5">E-Mail</h5>
+                                <div class="u-border-3 u-border-black u-shape u-shape-rectangle u-white u-shape-3" align="center">
+                                  <input #UEmail="ngModel" UEmail name="UserEmail" type="text" id="Email" required ngModel>
+                                </div>
+                                <!-- <h5 class="u-text u-text-default u-text-6">### User Email ###</h5> -->
+                                <h3 class="u-text u-text-default u-text-7">:</h3>
+                                <div class="u-border-3 u-border-black u-container-style u-group u-shape-rectangle u-white u-group-2">
+                                  <div class="u-container-layout u-container-layout-5">
+                                    <h3 class="u-text u-text-8">
+                                      <span style="font-size: 1.125rem;">&nbsp; &nbsp;Tell Something About Yourself&nbsp;</span>
+                                    </h3>
+                                  </div>
+                                </div>
+                                <div class="u-border-3 u-border-black u-container-style u-group u-shape-rectangle u-white u-group-3">
+                                  <div class="u-container-layout u-container-layout-6">
+                                    <textarea name="Sample Headline" cols="30" rows="5" ></textarea>
+                                    <h5 class="u-text u-text-9"></h5>
+                                  </div>
+                                </div>
+                                <h3 class="u-text u-text-default u-text-10">:</h3>
+                                <div class="u-align-center u-form-group u-form-submit">
+                                  <button class="u-active-palette-1-light-1 u-border-none u-btn u-btn-round u-btn-submit u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-text-body-alt-color u-btn-1 ">Save<br>
+                                  </button>
+                                  <input type="submit " value="submit " class="u-form-control-hidden ">
+                                </div>
+                                <a routerLink="/profile" data-page-id="982266" class="u-btn u-button-style u-btn-1">Submit</a>
+                              </div>
+                            </div>
+                          </div>
+                            <div class="u-container-style u-tab-pane u-tab-pane-2" id="tab-06a8" role="tabpanel" aria-labelledby="link-tab-06a8">
+                              <div class="u-container-layout u-container-layout-7"><span class="u-icon u-icon-circle u-icon-2">
+                                <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 50 50" 
+                                style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-a13c"></use></svg>
+                                <svg class="u-svg-content" viewBox="0 0 50 50" x="0px" y="0px" id="svg-a13c" style="enable-background:new 0 0 50 50;">
+                                  <path style="fill:#C03A2B;" d="M24.85,10.126c2.018-4.783,6.628-8.125,11.99-8.125c7.223,0,12.425,6.179,13.079,13.543,c0,0,0.353,1.828-0.424,5.119c-1.058,4.482-3.545,8.464-6.898,11.503L24.85,48L7.402,32.165c-3.353-3.038-5.84-7.021-6.898-11.503
+c-0.777-3.291-0.424-5.119-0.424-5.119C0.734,8.179,5.936,2,13.159,2C18.522,2,22.832,5.343,24.85,10.126z">
+</path><path style="fill:#ED7161;" d="M6,18.078c-0.553,0-1-0.447-1-1c0-5.514,4.486-10,10-10c0.553,0,1,0.447,1,1s-0.447,1-1,1,c-4.411,0-8,3.589-8,8C7,17.631,6.553,18.078,6,18.078z"></path></svg></span>
+                              <div id="wishlistComp">
+                                <h1 class="u-text u-text-default u-text-11">Wishlisted Courses</h1>
+                                <div class="u-list u-list-1">
+                                  <div class="u-repeater u-repeater-1">                                
+                                    <app-wishlist-item *ngFor="let item of wishlist" [wishlist] = "item"></app-wishlist-item>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                            <div class="u-container-style u-tab-pane u-tab-pane-3" id="tab-1c83" role="tabpanel" aria-labelledby="link-tab-1c83">
+                              <div class="u-container-layout u-container-layout-11"><span class="u-icon u-icon-circle u-text-palette-1-base u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 24 24" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-9ce8"></use></svg><svg class="u-svg-content" viewBox="0 0 24 24" id="svg-9ce8"><defs><style>.cls-1{fill:#ffeabb;}.cls-2{fill:#f94060;}.cls-3{fill:#f7bf75;}.cls-4{fill:#f1734d;}</style>
+</defs><g id="Certificate"><rect class="cls-1" height="13.7" width="20" x="1.86" y="3.12"></rect><path class="cls-2" d="M4.8,12.69H9.39a1.13,1.13,0,1,1,0,2.25H4.8a1.13,1.13,0,1,1,0-2.25"></path><rect class="cls-3" height="13.7" width="1.95" x="19.92" y="3.12"></rect><polygon class="cls-2" points="13.44 15.31 11.17 19.23 13.08 19.25 14.04 20.88 16.65 16.37 13.44 15.31"></polygon><polygon class="cls-2" points="15.49 17.11 17.67 20.88 18.63 19.25 20.53 19.23 18.27 15.31 15.49 17.11"></polygon><path class="cls-3" d="M18.37,14.62a2.52,2.52,0,1,1-2.51-2.52,2.52,2.52,0,0,1,2.51,2.52"></path><path class="cls-4" d="M17.22,14.62a1.37,1.37,0,1,1-1.36-1.37,1.36,1.36,0,0,1,1.36,1.37"></path><path d="M21.86,2.62h-20a.5.5,0,0,0-.5.5v13.7a.51.51,0,0,0,.5.5H11.7l-1,1.66a.5.5,0,0,0,0,.5.5.5,0,0,0,.43.25h1.62l.82,1.4a.5.5,0,0,0,.43.24h0a.47.47,0,0,0,.43-.25l1.39-2.39,1.38,2.39a.47.47,0,0,0,.43.25h0a.5.5,0,0,0,.43-.24l.82-1.4h1.62a.5.5,0,0,0,.43-.25.5.5,0,0,0,0-.5l-1-1.66h1.85a.5.5,0,0,0,.5-.5V3.12A.5.5,0,0,0,21.86,2.62ZM14,19.89l-.53-.9a.53.53,0,0,0-.43-.25H12l1.37-2.37a3,3,0,0,0,1.75,1.18l.12.19Zm1.82-3.26a2,2,0,1,1,2-2A2,2,0,0,1,15.86,16.63Zm2.77,2.11a.53.53,0,0,0-.43.25l-.53.9-1.33-2.31a3,3,0,0,0,2-1.21l1.37,2.37Zm2.73-2.42H19.43l-.62-1.08a3.18,3.18,0,0,0,.06-.62,3,3,0,1,0-6,0,3.18,3.18,0,0,0,.06.62l-.62,1.08H2.36V3.62h19Z"></path><path d="M16.33,14.12h-.95a.5.5,0,0,0,0,1h.95a.5.5,0,0,0,0-1Z"></path><path d="M4.8,15.44H9.39a1.63,1.63,0,1,0,0-3.25H4.8a1.63,1.63,0,1,0,0,3.25Zm0-2.25H9.39a.63.63,0,1,1,0,1.25H4.8a.63.63,0,1,1,0-1.25Z"></path><path d="M10.48,6h2.76a.5.5,0,0,0,.5-.5.5.5,0,0,0-.5-.5H10.48a.5.5,0,0,0-.5.5A.51.51,0,0,0,10.48,6Z"></path><path d="M8,7.88h7.64a.5.5,0,0,0,.5-.5.5.5,0,0,0-.5-.5H8a.5.5,0,0,0-.5.5A.5.5,0,0,0,8,7.88Z"></path><path d="M8,9.81h7.64a.5.5,0,0,0,.5-.5.5.5,0,0,0-.5-.5H8a.5.5,0,0,0-.5.5A.5.5,0,0,0,8,9.81Z"></path>
+</g></svg></span>
+                                <h3 class="u-text u-text-default u-text-18">Your Certifications</h3>
+                                <div id="carousel-bd35" data-interval="5000" data-u-ride="carousel" class="u-carousel u-expanded-width-xs u-slider u-slider-1">
+                                  <ol class="u-absolute-hcenter u-carousel-indicators u-hidden u-carousel-indicators-1">
+                                    <li data-u-target="#carousel-bd35" class="u-active u-grey-30" data-u-slide-to="0"></li>
+                                    <li data-u-target="#carousel-bd35" class="u-grey-30" data-u-slide-to="1"></li>
+                                    <li data-u-target="#carousel-bd35" class="u-grey-30" data-u-slide-to="2"></li>
+                                    <li data-u-target="#carousel-bd35" class="u-grey-30" data-u-slide-to="3"></li>
+                                    <li data-u-target="#carousel-bd35" class="u-grey-30" data-u-slide-to="4"></li>
+                                    <li data-u-target="#carousel-bd35" class="u-grey-30" data-u-slide-to="5"></li>
+                                    <li data-u-target="#carousel-bd35" class="u-grey-30" data-u-slide-to="6"></li>
+                                    <li data-u-target="#carousel-bd35" class="u-grey-30" data-u-slide-to="7"></li>
+                                    <li data-u-target="#carousel-bd35" class="u-grey-30" data-u-slide-to="8"></li>
+                                    <li data-u-target="#carousel-bd35" class="u-grey-30" data-u-slide-to="9"></li>
+                                    <li data-u-target="#carousel-bd35" class="u-grey-30" data-u-slide-to="10"></li>
+                                    <li data-u-target="#carousel-bd35" class="u-grey-30" data-u-slide-to="11"></li>
+                                  </ol>
+                                  <div class="u-carousel-inner" role="listbox">
+                                    <div class="u-active u-align-center u-carousel-item u-container-style u-slide">
+                                      <div class="u-container-layout u-valign-top u-container-layout-12">
+                                        <img alt="" class="u-expanded-width u-image u-image-default u-image-4" data-image-width="1280" data-image-height="716" src="images/1.svg">
+                                        <h4 class="u-text u-text-default u-text-19">Sample Headline</h4>
+                                        <p class="u-text u-text-20">Sample text. Click to select the text box. Click again or double click to start editing the text.&nbsp;Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                      </div>
+                                    </div>
+                                    <div class="u-align-center u-carousel-item u-container-style u-slide">
+                                      <div class="u-container-layout u-valign-top u-container-layout-13">
+                                        <img alt="" class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-image u-image-default u-image-5" data-image-width="1280" data-image-height="716" src="images/1.svg">
+                                        <h4 class="u-text u-text-default u-text-21">Sample Headline</h4>
+                                        <p class="u-text u-text-22">Sample text. Click to select the text box. Click again or double click to start editing the text.&nbsp;Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                      </div>
+                                    </div>
+                                    <div class="u-align-center u-carousel-item u-container-style u-slide">
+                                      <div class="u-container-layout u-valign-top u-container-layout-14">
+                                        <img alt="" class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-image u-image-default u-image-6" data-image-width="1280" data-image-height="716" src="images/1.svg">
+                                        <h4 class="u-text u-text-default u-text-23">Sample Headline</h4>
+                                        <p class="u-text u-text-24">Sample text. Click to select the text box. Click again or double click to start editing the text.&nbsp;Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                      </div>
+                                    </div>
+                                    <div class="u-align-center u-carousel-item u-container-style u-slide">
+                                      <div class="u-container-layout u-valign-top u-container-layout-15">
+                                        <img alt="" class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-image u-image-default u-image-7" data-image-width="1280" data-image-height="716" src="images/1.svg">
+                                        <h4 class="u-text u-text-default u-text-25">Sample Headline</h4>
+                                        <p class="u-text u-text-26">Sample text. Click to select the text box. Click again or double click to start editing the text.&nbsp;Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                      </div>
+                                    </div>
+                                    <div class="u-align-center u-carousel-item u-container-style u-slide">
+                                      <div class="u-container-layout u-valign-top u-container-layout-16">
+                                        <img alt="" class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-image u-image-default u-image-8" data-image-width="1280" data-image-height="716" src="images/1.svg">
+                                        <h4 class="u-text u-text-default u-text-27">Sample Headline</h4>
+                                        <p class="u-text u-text-28">Sample text. Click to select the text box. Click again or double click to start editing the text.&nbsp;Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                      </div>
+                                    </div>
+                                    <div class="u-align-center u-carousel-item u-container-style u-slide">
+                                      <div class="u-container-layout u-valign-top u-container-layout-17">
+                                        <img alt="" class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-image u-image-default u-image-9" data-image-width="1280" data-image-height="716" src="images/1.svg">
+                                        <h4 class="u-text u-text-default u-text-29">Sample Headline</h4>
+                                        <p class="u-text u-text-30">Sample text. Click to select the text box. Click again or double click to start editing the text.&nbsp;Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                      </div>
+                                    </div>
+                                    <div class="u-align-center u-carousel-item u-container-style u-slide">
+                                      <div class="u-container-layout u-valign-top u-container-layout-18">
+                                        <img alt="" class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-image u-image-default u-image-10" data-image-width="1280" data-image-height="716" src="images/1.svg">
+                                        <h4 class="u-text u-text-default u-text-31">Sample Headline</h4>
+                                        <p class="u-text u-text-32">Sample text. Click to select the text box. Click again or double click to start editing the text.&nbsp;Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                      </div>
+                                    </div>
+                                    <div class="u-align-center u-carousel-item u-container-style u-slide">
+                                      <div class="u-container-layout u-valign-top u-container-layout-19">
+                                        <img alt="" class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-image u-image-default u-image-11" data-image-width="1280" data-image-height="716" src="images/1.svg">
+                                        <h4 class="u-text u-text-default u-text-33">Sample Headline</h4>
+                                        <p class="u-text u-text-34">Sample text. Click to select the text box. Click again or double click to start editing the text.&nbsp;Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                      </div>
+                                    </div>
+                                    <div class="u-align-center u-carousel-item u-container-style u-slide">
+                                      <div class="u-container-layout u-valign-top u-container-layout-20">
+                                        <img alt="" class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-image u-image-default u-image-12" data-image-width="1280" data-image-height="716" src="images/1.svg">
+                                        <h4 class="u-text u-text-default u-text-35">Sample Headline</h4>
+                                        <p class="u-text u-text-36">Sample text. Click to select the text box. Click again or double click to start editing the text.&nbsp;Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                      </div>
+                                    </div>
+                                    <div class="u-align-center u-carousel-item u-container-style u-slide">
+                                      <div class="u-container-layout u-valign-top u-container-layout-21">
+                                        <img alt="" class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-image u-image-default u-image-13" data-image-width="1280" data-image-height="716" src="images/1.svg">
+                                        <h4 class="u-text u-text-default u-text-37">Sample Headline</h4>
+                                        <p class="u-text u-text-38">Sample text. Click to select the text box. Click again or double click to start editing the text.&nbsp;Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                      </div>
+                                    </div>
+                                    <div class="u-align-center u-carousel-item u-container-style u-slide">
+                                      <div class="u-container-layout u-valign-top u-container-layout-22">
+                                        <img alt="" class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-image u-image-default u-image-14" data-image-width="1280" data-image-height="716" src="images/1.svg">
+                                        <h4 class="u-text u-text-default u-text-39">Sample Headline</h4>
+                                        <p class="u-text u-text-40">Sample text. Click to select the text box. Click again or double click to start editing the text.&nbsp;Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                      </div>
+                                    </div>
+                                    <div class="u-align-center u-carousel-item u-container-style u-slide">
+                                      <div class="u-container-layout u-valign-top u-container-layout-23">
+                                        <img alt="" class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-image u-image-default u-image-15" data-image-width="1280" data-image-height="716" src="images/1.svg">
+                                        <h4 class="u-text u-text-default u-text-41">Sample Headline</h4>
+                                        <p class="u-text u-text-42">Sample text. Click to select the text box. Click again or double click to start editing the text.&nbsp;Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <a class="u-absolute-vcenter u-carousel-control u-carousel-control-prev u-grey-60 u-icon-circle u-spacing-9 u-carousel-control-1" href="#carousel-bd35" role="button" data-u-slide="prev">
+                                    <span aria-hidden="true">
+                                      <svg viewBox="0 0 477.175 477.175"><path d="M145.188,238.575l215.5-215.5c5.3-5.3,5.3-13.8,0-19.1s-13.8-5.3-19.1,0l-225.1,225.1c-5.3,5.3-5.3,13.8,0,19.1l225.1,225
+                c2.6,2.6,6.1,4,9.5,4s6.9-1.3,9.5-4c5.3-5.3,5.3-13.8,0-19.1L145.188,238.575z"></path></svg>
+                                    </span>
+                                    <span class="sr-only">+Previous</span>
+                                  </a>
+                                  <a class="u-absolute-vcenter u-carousel-control u-carousel-control-next u-grey-60 u-icon-circle u-spacing-9 u-carousel-control-2" href="#carousel-bd35" role="button" data-u-slide="next">
+                                    <span aria-hidden="true">
+                                      <svg viewBox="0 0 477.175 477.175"><path d="M360.731,229.075l-225.1-225.1c-5.3-5.3-13.8-5.3-19.1,0s-5.3,13.8,0,19.1l215.5,215.5l-215.5,215.5
+                c-5.3,5.3-5.3,13.8,0,19.1c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-4l225.1-225.1C365.931,242.875,365.931,234.275,360.731,229.075z"></path></svg>
+                                    </span>
+                                    <span class="sr-only">+Next</span>
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="u-container-style u-tab-pane u-tab-pane-4" id="tab-8faf" role="tabpanel" aria-labelledby="link-tab-8faf">
+                              <div class="u-container-layout u-container-layout-24"><span class="u-icon u-icon-circle u-icon-4"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 50 50" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-d2de"></use></svg><svg class="u-svg-content" viewBox="0 0 50 50" x="0px" y="0px" id="svg-d2de" style="enable-background:new 0 0 50 50;"><circle style="fill:#43B05C;" cx="25" cy="25" r="25"></circle><line style="fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" x1="25" y1="13" x2="25" y2="38"></line><line style="fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" x1="37.5" y1="25" x2="12.5" y2="25"></line></svg></span>
+                                <h3 class="u-text u-text-default u-text-43">Create Course</h3>
+                                <a routerLink="/create-a-new-course" data-page-id="1048864" class="u-btn u-btn-round u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-6 u-btn-2">Create a New Course</a>
+                                <h4 class="u-text u-text-default u-text-44">Created Courses:</h4>
+                                <div id="carousel-4367" data-interval="5000" data-u-ride="carousel" class="u-carousel u-expanded-width-xs u-slider u-slider-2">
+                                  <ol class="u-absolute-hcenter u-carousel-indicators u-hidden u-carousel-indicators-2">
+                                    <li data-u-target="#carousel-4367" class="u-active u-grey-30" data-u-slide-to="0"></li>
+                                    <li data-u-target="#carousel-4367" class="u-grey-30" data-u-slide-to="1"></li>
+                                    <li data-u-target="#carousel-4367" class="u-grey-30" data-u-slide-to="2"></li>
+                                    <li data-u-target="#carousel-4367" class="u-grey-30" data-u-slide-to="3"></li>
+                                    <li data-u-target="#carousel-4367" class="u-grey-30" data-u-slide-to="4"></li>
+                                    <li data-u-target="#carousel-4367" class="u-grey-30" data-u-slide-to="5"></li>
+                                    <li data-u-target="#carousel-4367" class="u-grey-30" data-u-slide-to="6"></li>
+                                    <li data-u-target="#carousel-4367" class="u-grey-30" data-u-slide-to="7"></li>
+                                    <li data-u-target="#carousel-4367" class="u-grey-30" data-u-slide-to="8"></li>
+                                    <li data-u-target="#carousel-4367" class="u-grey-30" data-u-slide-to="9"></li>
+                                    <li data-u-target="#carousel-4367" class="u-grey-30" data-u-slide-to="10"></li>
+                                  </ol>
+                                  <div class="u-carousel-inner" role="listbox">
+                                    <div class="u-active u-align-center u-carousel-item u-container-style u-slide">
+                                      <div class="u-container-layout u-valign-top u-container-layout-25">
+                                        <img alt="" class="u-expanded-width u-image u-image-default u-image-16" data-image-width="1280" data-image-height="716" src="images/1.svg">
+                                        <h4 class="u-text u-text-default u-text-45">Sample Headline</h4>
+                                        <p class="u-text u-text-46">Sample text. Click to select the text box. Click again or double click to start editing the text.&nbsp;Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                      </div>
+                                    </div>
+                                    <div class="u-align-center u-carousel-item u-container-style u-slide">
+                                      <div class="u-container-layout u-valign-top u-container-layout-26">
+                                        <img alt="" class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-image u-image-default u-image-17" data-image-width="1280" data-image-height="716" src="images/1.svg">
+                                        <h4 class="u-text u-text-default u-text-47">Sample Headline</h4>
+                                        <p class="u-text u-text-48">Sample text. Click to select the text box. Click again or double click to start editing the text.&nbsp;Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                      </div>
+                                    </div>
+                                    <div class="u-align-center u-carousel-item u-container-style u-slide">
+                                      <div class="u-container-layout u-valign-top u-container-layout-27">
+                                        <img alt="" class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-image u-image-default u-image-18" data-image-width="1280" data-image-height="716" src="images/1.svg">
+                                        <h4 class="u-text u-text-default u-text-49">Sample Headline</h4>
+                                        <p class="u-text u-text-50">Sample text. Click to select the text box. Click again or double click to start editing the text.&nbsp;Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                      </div>
+                                    </div>
+                                    <div class="u-align-center u-carousel-item u-container-style u-slide">
+                                      <div class="u-container-layout u-valign-top u-container-layout-28">
+                                        <img alt="" class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-image u-image-default u-image-19" data-image-width="1280" data-image-height="716" src="images/1.svg">
+                                        <h4 class="u-text u-text-default u-text-51">Sample Headline</h4>
+                                        <p class="u-text u-text-52">Sample text. Click to select the text box. Click again or double click to start editing the text.&nbsp;Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                      </div>
+                                    </div>
+                                    <div class="u-align-center u-carousel-item u-container-style u-slide">
+                                      <div class="u-container-layout u-valign-top u-container-layout-29">
+                                        <img alt="" class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-image u-image-default u-image-20" data-image-width="1280" data-image-height="716" src="images/1.svg">
+                                        <h4 class="u-text u-text-default u-text-53">Sample Headline</h4>
+                                        <p class="u-text u-text-54">Sample text. Click to select the text box. Click again or double click to start editing the text.&nbsp;Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                      </div>
+                                    </div>
+                                    <div class="u-align-center u-carousel-item u-container-style u-slide">
+                                      <div class="u-container-layout u-valign-top u-container-layout-30">
+                                        <img alt="" class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-image u-image-default u-image-21" data-image-width="1280" data-image-height="716" src="images/1.svg">
+                                        <h4 class="u-text u-text-default u-text-55">Sample Headline</h4>
+                                        <p class="u-text u-text-56">Sample text. Click to select the text box. Click again or double click to start editing the text.&nbsp;Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                      </div>
+                                    </div>
+                                    <div class="u-align-center u-carousel-item u-container-style u-slide">
+                                      <div class="u-container-layout u-valign-top u-container-layout-31">
+                                        <img alt="" class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-image u-image-default u-image-22" data-image-width="1280" data-image-height="716" src="images/1.svg">
+                                        <h4 class="u-text u-text-default u-text-57">Sample Headline</h4>
+                                        <p class="u-text u-text-58">Sample text. Click to select the text box. Click again or double click to start editing the text.&nbsp;Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                      </div>
+                                    </div>
+                                    <div class="u-align-center u-carousel-item u-container-style u-slide">
+                                      <div class="u-container-layout u-valign-top u-container-layout-32">
+                                        <img alt="" class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-image u-image-default u-image-23" data-image-width="1280" data-image-height="716" src="images/1.svg">
+                                        <h4 class="u-text u-text-default u-text-59">Sample Headline</h4>
+                                        <p class="u-text u-text-60">Sample text. Click to select the text box. Click again or double click to start editing the text.&nbsp;Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                      </div>
+                                    </div>
+                                    <div class="u-align-center u-carousel-item u-container-style u-slide">
+                                      <div class="u-container-layout u-valign-top u-container-layout-33">
+                                        <img alt="" class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-image u-image-default u-image-24" data-image-width="1280" data-image-height="716" src="images/1.svg">
+                                        <h4 class="u-text u-text-default u-text-61">Sample Headline</h4>
+                                        <p class="u-text u-text-62">Sample text. Click to select the text box. Click again or double click to start editing the text.&nbsp;Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                      </div>
+                                    </div>
+                                    <div class="u-align-center u-carousel-item u-container-style u-slide">
+                                      <div class="u-container-layout u-valign-top u-container-layout-34">
+                                        <img alt="" class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-image u-image-default u-image-25" data-image-width="1280" data-image-height="716" src="images/1.svg">
+                                        <h4 class="u-text u-text-default u-text-63">Sample Headline</h4>
+                                        <p class="u-text u-text-64">Sample text. Click to select the text box. Click again or double click to start editing the text.&nbsp;Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                      </div>
+                                    </div>
+                                    <div class="u-align-center u-carousel-item u-container-style u-slide">
+                                      <div class="u-container-layout u-valign-top u-container-layout-35">
+                                        <img alt="" class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-image u-image-default u-image-26" data-image-width="1280" data-image-height="716" src="images/1.svg">
+                                        <h4 class="u-text u-text-default u-text-65">Sample Headline</h4>
+                                        <p class="u-text u-text-66">Sample text. Click to select the text box. Click again or double click to start editing the text.&nbsp;Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <a class="u-absolute-vcenter u-carousel-control u-carousel-control-prev u-grey-60 u-icon-circle u-spacing-9 u-carousel-control-3" href="#carousel-4367" role="button" data-u-slide="prev">
+                                    <span aria-hidden="true">
+                                      <svg viewBox="0 0 477.175 477.175"><path d="M145.188,238.575l215.5-215.5c5.3-5.3,5.3-13.8,0-19.1s-13.8-5.3-19.1,0l-225.1,225.1c-5.3,5.3-5.3,13.8,0,19.1l225.1,225
+                c2.6,2.6,6.1,4,9.5,4s6.9-1.3,9.5-4c5.3-5.3,5.3-13.8,0-19.1L145.188,238.575z"></path></svg>
+                                    </span>
+                                    <span class="sr-only">+Previous</span>
+                                  </a>
+                                  <a class="u-absolute-vcenter u-carousel-control u-carousel-control-next u-grey-60 u-icon-circle u-spacing-9 u-carousel-control-4" href="#carousel-4367" role="button" data-u-slide="next">
+                                    <span aria-hidden="true">
+                                      <svg viewBox="0 0 477.175 477.175"><path d="M360.731,229.075l-225.1-225.1c-5.3-5.3-13.8-5.3-19.1,0s-5.3,13.8,0,19.1l215.5,215.5l-215.5,215.5
+                c-5.3,5.3-5.3,13.8,0,19.1c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-4l225.1-225.1C365.931,242.875,365.931,234.275,360.731,229.075z"></path></svg>
+                                    </span>
+                                    <span class="sr-only">+Next</span>
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="u-container-style u-tab-pane u-tab-pane-5" id="tab-7486" role="tabpanel" aria-labelledby="link-tab-7486">
+                              <div class="u-container-layout u-container-layout-36">
+                                <div class="u-border-3 u-border-black u-container-style u-group u-shape-rectangle u-white u-group-4">
+                                  <div class="u-container-layout u-container-layout-37">
+                                    <h5 class="u-text u-text-67">Enter Old Password</h5>
+                                  </div>
+                                </div>
+                                <div class="u-border-3 u-border-black u-container-style u-group u-shape-rectangle u-white u-group-5" align="center">
+                                  <div class="u-container-layout u-container-layout-38" align="center">
+                                    <h5 class="u-text u-text-default u-text-68" >
+                                      <input #UOldPwd="ngModel" UOldPwd name="UserEmail" type="text" id="oldPwd" required ngModel>
+                                    </h5>
+                                  </div>
+                                </div>
+                                <h3 class="u-text u-text-default u-text-69">:</h3>
+                                <div class="u-border-3 u-border-black u-container-style u-group u-shape-rectangle u-white u-group-6" align="center">
+                                  <div class="u-container-layout u-container-layout-39" align="center">
+                                    <h5 class="u-text u-text-default u-text-70">
+                                      <input #UNewPwd="ngModel" UNewPwd type="text" id="newPwd" required ngModel>
+                                    </h5>
+                                  </div>
+                                </div>
+                                <div class="u-border-3 u-border-black u-container-style u-group u-shape-rectangle u-white u-group-7">
+                                  <div class="u-container-layout u-container-layout-40">
+                                    <h5 class="u-text u-text-71">Enter New Password&nbsp;</h5>
+                                  </div>
+                                </div>
+                                <h3 class="u-text u-text-default u-text-72">:</h3>
+                                <div class="u-align-center u-form-group u-form-submit">
+                                  <button class="u-active-palette-1-light-1 u-border-none u-btn u-btn-round u-btn-submit u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-text-body-alt-color u-btn-1 ">Save<br>
+                                  </button>
+                                  <input type="submit " value="submit " class="u-form-control-hidden ">
+                                </div>
+                                <a routerLink="/profile" data-page-id="982266" class="u-btn u-button-style u-btn-3">Submit</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+</section>

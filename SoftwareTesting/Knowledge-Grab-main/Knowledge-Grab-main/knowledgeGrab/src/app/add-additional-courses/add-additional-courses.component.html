@@ -1,0 +1,156 @@
+<section class="u-clearfix u-section-1" id="sec-77c7">
+  <form action="/AddAdditionalCourses" #AddAdditionalCourses="ngForm" (ngSubmit)="submit(AddAdditionalCourses)" method="POST" source="custom" name="form-3 " style="padding: 0px; ">
+    <div class="u-clearfix u-sheet u-sheet-1"><span class="u-icon u-icon-circle u-text-palette-1-base u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 48 48" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-5087"></use></svg><svg class="u-svg-content" viewBox="0 0 48 48" id="svg-5087"><defs><style>.cls-1{fill:#e1eaf6;}.cls-2{fill:url(#linear-gradient);}.cls-3{fill:#a7c1db;}.cls-4{fill:url(#linear-gradient-2);}.cls-5{fill:url(#linear-gradient-3);}.cls-6{fill:#fff;}</style><linearGradient gradientUnits="userSpaceOnUse" id="linear-gradient" x1="24" x2="24" y1="5.03" y2="40.35"><stop offset="0" stop-color="#f1f5f9"></stop><stop offset="1" stop-color="#d8e5f4"></stop>
+</linearGradient><linearGradient gradientUnits="userSpaceOnUse" id="linear-gradient-2" x1="33.99" x2="33.99" y1="21.51" y2="30.34"><stop offset="0" stop-color="#7db700"></stop><stop offset="1" stop-color="#618e00"></stop>
+</linearGradient><linearGradient gradientUnits="userSpaceOnUse" id="linear-gradient-3" x1="33.99" x2="33.99" y1="22.24" y2="29.91"><stop offset="0" stop-color="#8ed000"></stop><stop offset="1" stop-color="#70a300"></stop>
+</linearGradient>
+</defs><g id="icons"><g id="Layer_3"><path class="cls-1" d="M33,40.5H15a5,5,0,0,1-5-5v-25a5,5,0,0,1,5-5H27.52a6,6,0,0,1,4.27,1.77l4.44,4.44A6,6,0,0,1,38,16V35.5A5,5,0,0,1,33,40.5Z"></path><path class="cls-2" d="M33,42.5H15a5,5,0,0,1-5-5v-25a5,5,0,0,1,5-5H27.52a6,6,0,0,1,4.27,1.77l4.44,4.44A6,6,0,0,1,38,18V37.5A5,5,0,0,1,33,42.5Z"></path><path class="cls-3" d="M36,16H30.83a2.33,2.33,0,0,1-2.33-2.33V9.5a.5.5,0,0,1,1,0v4.17A1.33,1.33,0,0,0,30.83,15H36a.5.5,0,0,1,0,1Z"></path><path class="cls-3" d="M34,21.43a7.63,7.63,0,1,0,4,14.1v-13A7.62,7.62,0,0,0,34,21.43Z"></path><path class="cls-4" d="M41.62,27.05A7.63,7.63,0,1,1,34,19.43,7.64,7.64,0,0,1,41.62,27.05Z"></path><path class="cls-5" d="M34,33.68a6.63,6.63,0,1,1,6.63-6.63A6.63,6.63,0,0,1,34,33.68Z"></path><path class="cls-6" d="M32.84,28.21H30.45c0-.21-.06-.41-.08-.59a5.12,5.12,0,0,1,0-.56,5.4,5.4,0,0,1,0-.56c0-.19.05-.39.08-.61h2.39V23.31a4.41,4.41,0,0,1,.58-.1,5.3,5.3,0,0,1,.57,0l.56,0a5.14,5.14,0,0,1,.61.1v2.58h2.37c0,.22.08.42.1.6a5.21,5.21,0,0,1,0,.55,5.12,5.12,0,0,1,0,.56c0,.19-.06.4-.1.61H35.16V30.8l-.6.09a3.48,3.48,0,0,1-.55,0,6.53,6.53,0,0,1-1.17-.13Z"></path>
+</g>
+</g></svg></span>
+      <h3 class="u-text u-text-default u-text-1">Add Additional Content To Your Course</h3>
+      <a routerLink="/exam-creation-page" data-page-id="467210592" class="u-btn u-button-style u-btn-1">Create A Exam&nbsp;</a>
+      <div class="u-table u-table-responsive u-table-1">
+        <table class="u-table-entity">
+          <colgroup>
+            <col width="12%">
+            <col width="34%">
+            <col width="27.9%">
+            <col width="26%">
+          </colgroup>
+          <thead class="u-palette-4-base u-table-header u-table-header-1">
+            <tr style="height: 63px;">
+              <th class="u-border-1 u-border-palette-4-base u-table-cell">List of Content</th>
+              <th class="u-border-1 u-border-palette-4-base u-table-cell">Place Links For Additional Courses</th>
+              <th class="u-border-1 u-border-palette-4-base u-table-cell">Title of the course</th>
+              <th class="u-border-1 u-border-palette-4-base u-table-cell">Description of the Course</th>
+            </tr>
+          </thead>
+          <tbody class="u-table-body">
+            <tr style="height: 46px;">
+              <td class="u-border-1 u-border-grey-30 u-first-column u-grey-5 u-table-cell u-table-cell-5"> Link 1</td>
+              <td class="u-border-1 u-border-grey-30 u-table-cell">
+                <input #Clink1="ngModel" Clink1 name="link_1st_course" type="text" id="link1" required ngModel></td>
+              <td class="u-border-1 u-border-grey-30 u-table-cell">
+                <input #Ctitle1="ngModel" Ctitle1 name="Title_1st_course" type="text" id="title1" required ngModel>
+              </td>
+              <td class="u-border-1 u-border-grey-30 u-table-cell">
+                <input #Cdescrip1="ngModel" Cdescrip1 name="Description1" type="text" id="discription1" required ngModel>
+              </td>
+            </tr>
+            <tr style="height: 46px;">
+              <td class="u-border-1 u-border-grey-30 u-first-column u-grey-5 u-table-cell u-table-cell-9"> Link 2</td>
+              <td class="u-border-1 u-border-grey-30 u-table-cell">
+                <input #Clink2="ngModel" Clink2 name="link_2nd_course" type="text" id="link2" required ngModel>
+              </td>
+              <td class="u-border-1 u-border-grey-30 u-table-cell">
+                 <input #Ctitle2="ngModel" Ctitle2 name="Title_2nd_course" type="text" id="title2" required ngModel></td>
+              <td class="u-border-1 u-border-grey-30 u-table-cell">
+                <input #Cdescrip2="ngModel" Cdescrip2 name="Description2" type="text" id="discription2" required ngModel>
+              </td>
+            </tr>
+            <tr style="height: 52px;">
+              <td class="u-border-1 u-border-grey-30 u-first-column u-grey-5 u-table-cell u-table-cell-13"> Link 3</td>
+              <td class="u-border-1 u-border-grey-30 u-table-cell">
+                <input #Clink3="ngModel" Clink3 name="link_3rd_course" type="text id=link3" required ngModel>
+              </td>
+              <td class="u-border-1 u-border-grey-30 u-table-cell"> 
+                <input #Ctitle3="ngModel" Ctitle3 name="Title_3rd_course" type="text" id="title3" required ngModel></td>
+              <td class="u-border-1 u-border-grey-30 u-table-cell">
+                <input #Cdescrip3="ngModel" Cdescrip3 name="Description3" type="text" id="discription3" required ngModel>
+              </td>
+            </tr>
+            <tr style="height: 46px;">
+              <td class="u-border-1 u-border-grey-30 u-grey-5 u-table-cell u-table-cell-17">Link 4</td>
+              <td class="u-border-1 u-border-grey-30 u-table-cell">
+                <input #Clink4="ngModel" Clink4 name="link_4th_course" type="text" id="link4" required ngModel>
+              </td>
+              <td class="u-border-1 u-border-grey-30 u-table-cell"> 
+                <input #Ctitle4="ngModel" Ctitle4 name="Title_4th_course" type="text" id="title4" required ngModel></td>
+              <td class="u-border-1 u-border-grey-30 u-table-cell">
+                <input #Cdescrip4="ngModel" Cdescrip4 name="Description4" type="text" id="discription4" required ngModel>
+              </td>
+            </tr>
+            <tr style="height: 46px;">
+              <td class="u-border-1 u-border-grey-30 u-first-column u-grey-5 u-table-cell u-table-cell-21"> Link 5</td>
+              <td class="u-border-1 u-border-grey-30 u-table-cell">
+                <input #Clink5="ngModel" Clink5 name="link_5th_course" type="text" id="link5" required ngModel>
+              </td>
+              <td class="u-border-1 u-border-grey-30 u-table-cell">
+                <input #Ctitle5="ngModel" Ctitle5 name="Title_5th_course" type="text" id="title5" required ngModel>
+              </td>
+              <td class="u-border-1 u-border-grey-30 u-table-cell">
+                <input #Cdescrip5="ngModel" Cdescrip5 name="Description5" type="text" id="discription5" required ngModel>
+              </td>
+            </tr>
+            <tr style="height: 63px;">
+              <td class="u-border-1 u-border-grey-30 u-grey-5 u-table-cell u-table-cell-25">Link 6</td>
+              <td class="u-border-1 u-border-grey-30 u-table-cell">
+                <input #Clink6="ngModel" Clink6 name="link_6th_course" type="text" id="link6" required ngModel>
+              </td>
+              <td class="u-border-1 u-border-grey-30 u-table-cell">
+                <input #Ctitle6="ngModel" Ctitle6 name="Title_6th_course" type="text" id="title6" required ngModel>
+              </td>
+              <td class="u-border-1 u-border-grey-30 u-table-cell">
+                <input #Cdescrip6="ngModel" Cdescrip6 name="Description6" type="text" id="discription6" required ngModel>
+              </td>
+            </tr>
+            <tr style="height: 63px;">
+              <td class="u-border-1 u-border-grey-30 u-grey-5 u-table-cell u-table-cell-29">Link 7</td>
+              <td class="u-border-1 u-border-grey-30 u-table-cell">
+                <input #Clink7="ngModel" Clink7 name="link_7th_course" type="text" id="link7" required ngModel>
+              </td>
+              <td class="u-border-1 u-border-grey-30 u-table-cell">
+                <input  #Ctitle7="ngModel" Ctitle7 name="Title_7th_course" type="text" id="title7" required ngModel>
+              </td>
+              <td class="u-border-1 u-border-grey-30 u-table-cell">
+                <input #Cdescrip7="ngModel" Cdescrip7 name="Description7" type="text" id="discription7" required ngModel>
+              </td>
+            </tr>
+            <tr style="height: 25px;">
+              <td class="u-border-1 u-border-grey-30 u-grey-5 u-table-cell u-table-cell-33">Link 8</td>
+              <td class="u-border-1 u-border-grey-30 u-table-cell">
+                <input #Clink8="ngModel" Clink8 name="link_8th_course" type="text id=link8" required ngModel>
+              </td>
+              <td class="u-border-1 u-border-grey-30 u-table-cell">
+                <input #Ctitle8="ngModel" Ctitle8 name="Title_8th_course" type="text" id="title8" required ngModel>
+              </td>
+              <td class="u-border-1 u-border-grey-30 u-table-cell">
+                <input #Cdescrip8="ngModel" Cdescrip8 name="Description8" type="text" id="discription8" required ngModel>
+              </td>
+            </tr>
+            <tr style="height: 63px;">
+              <td class="u-border-1 u-border-grey-30 u-grey-5 u-table-cell u-table-cell-37">Link 9</td>
+              <td class="u-border-1 u-border-grey-30 u-table-cell">
+                <input #Clink9="ngModel" Clink9 name="link_9th_course" type="text" id="link9" required ngModel>
+              </td>
+              <td class="u-border-1 u-border-grey-30 u-table-cell">
+                <input #Ctitle9="ngModel" Ctitle9 name="Title_9th_course" type="text" id="title9" required ngModel>
+              </td>
+              <td class="u-border-1 u-border-grey-30 u-table-cell">
+                <input #Cdescrip9="ngModel" Cdescrip9 name="Description9" type="text" id="discription9" required ngModel>
+              </td>
+            </tr>
+            <tr style="height: 63px;">
+              <td class="u-border-1 u-border-grey-30 u-grey-5 u-table-cell u-table-cell-41">Link 10</td>
+              <td class="u-border-1 u-border-grey-30 u-table-cell">
+                <input #Clink10="ngModel" Clink10 name="link_10th_course" type="text" id="link10" required ngModel>
+              </td>
+              <td class="u-border-1 u-border-grey-30 u-table-cell">
+                <input #Ctitle10="ngModel" Ctitle10 name="Title_10th_course" type="text" id="title10" required ngModel>
+              </td>
+              <td class="u-border-1 u-border-grey-30 u-table-cell">
+                <input #Cdescrip10="ngModel" Cdescrip10 name="Description10" type="text" id="discription10"required ngModel>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="u-align-center u-form-group u-form-submit">
+        <button class="u-active-palette-1-light-1 u-border-none u-btn u-btn-round u-btn-submit u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-text-body-alt-color u-btn-1 ">Save<br>
+        </button>
+        <input type="submit " value="submit " class="u-form-control-hidden ">
+    </div>
+      <a routerLink="/profile" data-page-id="982266" class="u-btn u-button-style u-btn-2">submit</a>
+    </div>
+  </form>
+  </section>

@@ -1,0 +1,63 @@
+
+Imported functions
+
+KERNEL32.dll
+                                 DeleteCriticalSection
+                                 EnterCriticalSection
+                                 ExitProcess
+                                 FindClose
+                                 FindFirstFileA
+                                 FindNextFileA
+                                 FreeLibrary
+                                 GetCommandLineA
+                                 GetLastError
+                                 GetModuleHandleA
+                                 GetProcAddress
+                                 InitializeCriticalSection
+                                 LeaveCriticalSection
+                                 LoadLibraryA
+                                 SetUnhandledExceptionFilter
+                                 TlsGetValue
+                                 VirtualProtect
+                                 VirtualQuery
+
+msvcrt.dll
+                                 _strdup
+                                 _stricoll
+
+msvcrt.dll
+                                 __getmainargs
+                                 __mb_cur_max
+                                 __p__environ
+                                 __p__fmode
+                                 __set_app_type
+                                 _cexit
+                                 _errno
+                                 _fpreset
+                                 _fullpath
+                                 _iob
+                                 _isctype
+                                 _onexit
+                                 _pctype
+                                 _setmode
+                                 abort
+                                 atexit
+                                 calloc
+                                 free
+                                 fwrite
+                                 malloc
+                                 mbstowcs
+                                 memcpy
+                                 puts
+                                 realloc
+                                 setlocale
+                                 signal
+                                 strcoll
+                                 strlen
+                                 tolower
+                                 vfprintf
+                                 wcstombs
+
+libgcc_s_dw2-1.dll
+                                 __deregister_frame_info
+                                 __register_frame_info

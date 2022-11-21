@@ -1,0 +1,9 @@
+<div class="search">
+      <div *ngFor="let item of searchItems" [searchItems] = "item">
+        <h3>{{item.course_id}}</h3>
+        <p> {{item.title}} </p>
+        <p> {{item.meta_data}} </p>
+      </div>
+
+</div>
+

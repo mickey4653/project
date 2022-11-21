@@ -1,0 +1,84 @@
+<section class="u-clearfix u-section-1" id="sec-4985">
+  <form #CreateANewCourse="ngForm" (ngSubmit)="submit(CreateANewCourse)" action="/create_newcourse" method="POST" source="custom" name="form-3">
+    <div class="u-clearfix u-sheet u-sheet-1">
+      <h1 class="u-text u-text-default u-text-1">Enter The New Course Details </h1>
+      <div class="u-border-3 u-border-black u-container-style u-group u-shape-rectangle u-white u-group-1" align="center">
+        <div class="u-container-layout u-container-layout-1" align="center">
+          <h5 class="u-text u-text-2" align="center">
+            <input #Cname="ngModel" Cname name="nameofcourse" type="text" id="courseName" required ngModel>
+
+          </h5>
+        </div>
+      </div>
+      <div class="u-border-3 u-border-black u-container-style u-group u-shape-rectangle u-white u-group-2">
+        <div class="u-container-layout u-container-layout-2">
+          <h6 class="u-text u-text-3">Enter The Name Of The Course&nbsp;</h6>
+        </div>
+      </div>
+      <h5 class="u-text u-text-default u-text-4">:<br>
+      </h5>
+      <div class="u-border-3 u-border-black u-container-style u-group u-shape-rectangle u-white u-group-3">
+        <div class="u-container-layout u-valign-middle u-container-layout-3">
+          <p class="u-text u-text-default u-text-5">Enter The Description for the Course</p>
+        </div>
+      </div>
+      <h5 class="u-text u-text-6">:<br>
+      </h5>
+      <div class="u-border-3 u-border-black u-container-style u-group u-shape-rectangle u-white u-group-4">
+        <div class="u-container-layout u-container-layout-4">
+          <p class="u-text u-text-7">
+            <textarea id="discription" cols="30" rows="5"></textarea>
+          </p>
+        </div>
+      </div>
+      <div class="u-border-3 u-border-black u-container-style u-group u-shape-rectangle u-white u-group-5">
+        <div class="u-container-layout u-valign-middle u-container-layout-5">
+          <p class="u-text u-text-8">Key Words for the Course</p>
+        </div>
+      </div>
+      <div class="u-border-3 u-border-black u-container-style u-group u-shape-rectangle u-white u-group-6">
+        <div class="u-container-layout u-container-layout-6" align="center">
+          <p class="u-text u-text-9">
+            <input #Kword="ngModel" Kword name="keywords" type="text" id="keyword" required ngModel>
+          </p>
+        </div>
+      </div>
+      <h5 class="u-text u-text-default u-text-10">:<br>
+      </h5>
+      <div class="u-border-3 u-border-black u-container-style u-group u-shape-rectangle u-white u-group-7">
+        <div class="u-container-layout u-valign-middle u-container-layout-7">
+          <p class="u-text u-text-11">Category Of the Course</p>
+        </div>
+      </div>
+      <div class="u-border-3 u-border-black u-container-style u-group u-shape-rectangle u-white u-group-8">
+        <div class="u-container-layout u-container-layout-8" align="center">
+          <p class="u-text u-text-12">
+            <input #Category="ngModel" Category name="categories" type="text" id="category" required ngModel>
+          </p>
+        </div>
+      </div>
+      <h5 class="u-text u-text-default u-text-13">:<br>
+      </h5>
+      <div class="u-border-3 u-border-black u-container-style u-group u-shape-rectangle u-white u-group-9">
+        <div class="u-container-layout u-container-layout-9" align="center">
+          <input #Link="ngModel" Link name="URLS" type="text" id="url" required ngModel>
+          <!-- <a href="https://nicepage.com/static-site-generator" class="u-active-none u-border-2 u-border-palette-1-base u-btn u-btn-rectangle u-button-style u-hover-none u-none u-radius-0 u-btn-1">Hyperlink</a> -->
+        </div>
+      </div>
+      <div class="u-border-3 u-border-black u-container-style u-group u-shape-rectangle u-white u-group-10">
+        <div class="u-container-layout u-container-layout-10">
+          <p class="u-text u-text-14">Upload the Video for the Course</p>
+        </div>
+      </div>
+      <h5 class="u-text u-text-default u-text-15">:
+
+      </h5>
+      <div class="u-align-center u-form-group u-form-submit">
+        <button class="u-active-palette-1-light-1 u-border-none u-btn u-btn-round u-btn-submit u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-text-body-alt-color u-btn-1 ">Save<br>
+        </button>
+        <input type="submit " value="submit " class="u-form-control-hidden ">
+    </div>
+     <a routerLink="/add-additional-courses" data-page-id="1049056" class="u-btn u-btn-round u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-2">Add Additional Content</a>
+      </div>
+    </form>
+  </section>

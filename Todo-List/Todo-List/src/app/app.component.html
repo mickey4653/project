@@ -1,0 +1,41 @@
+<h1 style="text-align: center;">Kevin's To-do List</h1>
+<p style="text-align: center;color:grey">To mark a task as finished, click on the task name or the Completed text.</p>
+<div class="container">
+  <div class="row justify-content-md-center">
+    <div class="col">
+      <table class="table">
+        <thead>
+            <tr>
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Enter Todo"  aria-label="Enter Todo" aria-describedby="basic-addon2" [(ngModel)]="newTodo" >
+              <input type="text" class="form-control" placeholder="Enter Description"  aria-label="Enter Enter Description" aria-describedby="basic-addon2" [(ngModel)]="Desription" >
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary btn-primaray" (click)="saveTodo();" type="button">Enter</button>
+              </div>
+            </div>
+          </tr>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Task</th>
+            <th scope="col">Completed</th>
+            <th scope="col">Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let todo of todos;let i=index">
+            <th scope="row">{{i+1}}</th>
+            <td class="{{ (todo.Completed) ? 'done':'' }}"   (click)="done(i)"  >{{todo.name}}</td>
+            <div *ngIf="todo.Completed==true; else elseblock">
+              <td style="color:green;font-weight: bold;" (click)="complete(i)" >V</td>
+            </div>
+            <ng-template #elseblock>
+              <td style="color:red;font-weight: bold;" (click)="complete(i)">X</td>
+            </ng-template>
+            <td>{{Desription}}</td>
+            <td style="color:red;font-weight: bold;" (click)="remove(i)">Del</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

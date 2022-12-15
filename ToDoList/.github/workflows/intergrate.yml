@@ -24,7 +24,7 @@ jobs:
 
       - name: Setup Pages
         uses: actions/configure-pages@v2
-        
+
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
@@ -36,6 +36,7 @@ jobs:
       - name: Build
         run: 
           npm run build -- --prod
-      - name: Lint
+
+      - name: Run Lint
         run: 
           npm run lint

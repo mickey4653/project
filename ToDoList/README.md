@@ -1,7 +1,12 @@
 # ToDoList
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.3.
-
+#Demo
+    Link for demostration(https://heykev-cmd.github.io/ToDoList/)
+# Introduction
+	This project is to get track of for ToDoList.
+    The user can mark the ToDo item as finished or unfinished by clicking the name of the item.
+    Other than marking as finished/unfinished, the user can also use delete button to delete the task.
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
